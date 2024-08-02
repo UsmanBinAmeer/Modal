@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 1rem;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    background-color: #dfe6e9;
+}
+.readMoreContainer{
+    display: flex;
+    flex-direction: column;
+    color: #111;
+}
+.container{
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 2px;
+    line-height: 1.4rem;
+    box-shadow: 0 0 1rem rgb(0,0,0,.1);
+
+}
+.readMoreBtn{
+    color: #0984e3;
+}
+.readMore{
+    display: none;
+}
+.readMore--show{
+    display: inline;
+}
